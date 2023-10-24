@@ -14,11 +14,10 @@ const AllTheBooks = () => {
             
                     {fantasy.map((book)=>{
                 return (
-                    <>
-                    <Col md={6} lg={4} xl={3} className='p-2'>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
                     <Card>
 
-                    <Card.Img variant="top" src={book.img} key={book.id} />
+                    <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
                      </Card.Body>
@@ -28,15 +27,14 @@ const AllTheBooks = () => {
                       </ListGroup>
                       </Card>
                       </Col>
-                      </>
+                      
                 )})}
                 {history.map((book)=>{
                 return (
-                    <>
-                    <Col md={6} lg={4} xl={3} className='p-2'>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
                     <Card>
 
-                    <Card.Img variant="top" src={book.img} key={book.id} />
+                    <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
                      </Card.Body>
@@ -46,15 +44,13 @@ const AllTheBooks = () => {
                       </ListGroup>
                       </Card>
                       </Col>
-                      </>
                 )})}
                 {horror.map((book)=>{
                 return (
-                    <>
-                    <Col md={6} lg={4} xl={3} className='p-2'>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
                     <Card>
 
-                    <Card.Img variant="top" src={book.img} key={book.id} />
+                    <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
                      </Card.Body>
@@ -64,15 +60,13 @@ const AllTheBooks = () => {
                       </ListGroup>
                       </Card>
                       </Col>
-                      </>
                 )})}
                 {romance.map((book)=>{
                 return (
-                    <>
-                    <Col md={6} lg={4} xl={3} className='p-2'>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
                     <Card>
 
-                    <Card.Img variant="top" src={book.img} key={book.id} />
+                    <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
                      </Card.Body>
@@ -82,15 +76,13 @@ const AllTheBooks = () => {
                       </ListGroup>
                       </Card>
                       </Col>
-                      </>
                 )})}
                 {scifi.map((book)=>{
                 return (
-                    <>
-                    <Col md={6} lg={4} xl={3} className='p-2'>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
                     <Card>
 
-                    <Card.Img variant="top" src={book.img} key={book.id} />
+                    <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
                      </Card.Body>
@@ -100,7 +92,6 @@ const AllTheBooks = () => {
                       </ListGroup>
                       </Card>
                       </Col>
-                      </>
                 )})}
                      </Row>
                      </Container>
