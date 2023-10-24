@@ -14,7 +14,7 @@ const AllTheBooks = () => {
             
                     {fantasy.map((book)=>{
                 return (
-                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
 
                     <Card.Img variant="top" src={book.img}/>
@@ -31,7 +31,7 @@ const AllTheBooks = () => {
                 )})}
                 {history.map((book)=>{
                 return (
-                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
 
                     <Card.Img variant="top" src={book.img}/>
@@ -47,7 +47,7 @@ const AllTheBooks = () => {
                 )})}
                 {horror.map((book)=>{
                 return (
-                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
 
                     <Card.Img variant="top" src={book.img}/>
@@ -63,7 +63,7 @@ const AllTheBooks = () => {
                 )})}
                 {romance.map((book)=>{
                 return (
-                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
 
                     <Card.Img variant="top" src={book.img}/>
@@ -79,7 +79,7 @@ const AllTheBooks = () => {
                 )})}
                 {scifi.map((book)=>{
                 return (
-                    <Col md={6} lg={4} xl={3} className='p-2' key={book.id}>
+                    <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
 
                     <Card.Img variant="top" src={book.img}/>
