@@ -4,13 +4,14 @@ import MyNav from "./Components/MyNav";
 import Footer from "./Components/Footer";
 import WelcomeAlert from "./Components/WelcomeAlert";
 import AllTheBooks from "./Components/AllTheBooks";
+import SingleBook from "./Components/SingleBook";
 
 function App() {
   return (
     <div className="App">
       <MyNav />
       <WelcomeAlert />
-      <AllTheBooks />
+      <SingleBook />
       <Footer />
     </div>
   );

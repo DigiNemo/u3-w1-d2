@@ -81,7 +81,6 @@ const AllTheBooks = () => {
                 return (
                     <Col md={6} lg={4} xl={3} className='p-2' key={book.asin}>
                     <Card>
-
                     <Card.Img variant="top" src={book.img}/>
                      <Card.Body>
                       <Card.Title>{book.title}</Card.Title>
